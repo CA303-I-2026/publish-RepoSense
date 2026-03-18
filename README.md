@@ -2,7 +2,7 @@
 
 [![Dashboard](https://img.shields.io/badge/Ver%20Dashboard-RepoSense-blue?style=for-the-badge)](https://ca303-i-2026.github.io/publish-RepoSense/)
 
-## 📊 Dashboard de contribuciones
+## 📊 Dashboard de contribuciones 
 
 El dashboard interactivo con las contribuciones de todos los grupos está disponible en:
 
