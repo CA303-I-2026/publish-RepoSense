@@ -48,6 +48,8 @@ jobs:
     if: (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule'
     permissions:
       contents: write
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - uses: actions/checkout@v4
