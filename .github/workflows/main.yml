@@ -37,7 +37,7 @@ jobs:
 
     - name: Verify all groups are in the report
       run: |
-        GROUPS=(
+        REPO_GROUPS=(
           "CA303-I-2026_Grupo-1-Los-bigotes-de-FM_main"
           "CA303-I-2026_Grupo-2_main"
           "CA303-I-2026_Grupo-3-p-0.05_main"
@@ -46,7 +46,7 @@ jobs:
           "CA303-I-2026_Grupo-6_main"
         )
         FAILED=0
-        for group in "${GROUPS[@]}"; do
+        for group in "${REPO_GROUPS[@]}"; do
           if [ ! -d "./reposense-report/$group" ]; then
             echo "ERROR: Group directory $group is missing from the report!"
             FAILED=1
