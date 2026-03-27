@@ -1,17 +1,17 @@
-Mar 26, 2026 1:28:43 AM reposense.system.LogsManager addFileHandler
+Mar 27, 2026 1:29:02 AM reposense.system.LogsManager addFileHandler
 INFO: Log temp folder has been successfully created
-Mar 26, 2026 1:28:43 AM reposense.parser.ArgsParser parse
+Mar 27, 2026 1:29:02 AM reposense.parser.ArgsParser parse
 INFO: Config path not provided, using the config folder as default.
-Mar 26, 2026 1:28:43 AM reposense.parser.ReportConfigYamlParser parse
+Mar 27, 2026 1:29:02 AM reposense.parser.ReportConfigYamlParser parse
 INFO: Parsing report-config.yaml file...
-Mar 26, 2026 1:28:44 AM reposense.parser.ArgsParser addReportConfigToBuilder
+Mar 27, 2026 1:29:02 AM reposense.parser.ArgsParser addReportConfigToBuilder
 WARNING: Error parsing report-config.yaml: /home/runner/work/publish-RepoSense/publish-RepoSense/config/report-config.yaml (No such file or directory)
 /home/runner/work/publish-RepoSense/publish-RepoSense/config/report-config.yaml Ignoring the report config provided.
-Mar 26, 2026 1:28:44 AM reposense.parser.CsvParser validateHeader
+Mar 27, 2026 1:29:02 AM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Skip Ignored File Analysis,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  File Size Limit,  Ignore File Size Limit,  Ignore Commits List
-Mar 26, 2026 1:28:44 AM reposense.parser.CsvParser validateHeader
+Mar 27, 2026 1:29:02 AM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, author-config.csv, and recognized columns: Author's Emails,  Repository's Location,  Branch,  Author's Git Host ID,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
-Mar 26, 2026 1:28:44 AM reposense.git.GitConfig getGlobalGitLfsConfig
+Mar 27, 2026 1:29:03 AM reposense.git.GitConfig getGlobalGitLfsConfig
 WARNING: Could not get global git lfs config
 java.lang.RuntimeException: reposense.system.CommandRunnerProcessException: Error returned from command git config --global --list on path . :
 fatal: unable to read config file '/home/runner/.gitconfig': No such file or directory
@@ -27,117 +27,152 @@ fatal: unable to read config file '/home/runner/.gitconfig': No such file or dir
 	at reposense.system.CommandRunner.runCommand(CommandRunner.java:21)
 	... 3 more
 
-Mar 26, 2026 1:28:44 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git...
-Mar 26, 2026 1:28:44 AM reposense.report.RepoCloner spawnCloneProcess
+Mar 27, 2026 1:29:03 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-6.git...
-Mar 26, 2026 1:28:44 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-2.git...
-Mar 26, 2026 1:28:44 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-2.git to complete...
-Mar 26, 2026 1:28:44 AM reposense.report.RepoCloner spawnCloneProcess
+Mar 27, 2026 1:29:03 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-3-p-0.05.git...
-Mar 26, 2026 1:28:44 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-3-p-0.05.git to complete...
-Mar 26, 2026 1:28:44 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-6.git to complete...
-Mar 26, 2026 1:28:44 AM reposense.report.RepoCloner waitForCloneProcess
+Mar 27, 2026 1:29:03 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-2.git...
+Mar 27, 2026 1:29:03 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git...
+Mar 27, 2026 1:29:03 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-2.git to complete...
+Mar 27, 2026 1:29:03 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git to complete...
-Mar 26, 2026 1:28:44 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/CA303-I-2026/Grupo-2.git completed!
-Mar 26, 2026 1:28:44 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git...
-Mar 26, 2026 1:28:44 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git to complete...
-Mar 26, 2026 1:28:44 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/CA303-I-2026/Grupo-6.git completed!
-Mar 26, 2026 1:28:44 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git...
-Mar 26, 2026 1:28:44 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git to complete...
-Mar 26, 2026 1:28:44 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git completed!
-Mar 26, 2026 1:28:44 AM reposense.report.RepoCloner waitForCloneProcess
+Mar 27, 2026 1:29:03 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-3-p-0.05.git to complete...
+Mar 27, 2026 1:29:03 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-6.git to complete...
+Mar 27, 2026 1:29:03 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/CA303-I-2026/Grupo-3-p-0.05.git completed!
-Mar 26, 2026 1:28:44 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [1/6] Analyzing https://github.com/CA303-I-2026/Grupo-2.git (main)...
-Mar 26, 2026 1:28:44 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [2/6] Analyzing https://github.com/CA303-I-2026/Grupo-6.git (main)...
-Mar 26, 2026 1:28:44 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [3/6] Analyzing https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main)...
-Mar 26, 2026 1:28:44 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [4/6] Analyzing https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
-Mar 26, 2026 1:28:44 AM reposense.report.ReportGenerator updateRepoConfig
+Mar 27, 2026 1:29:03 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/CA303-I-2026/Grupo-2.git completed!
+Mar 27, 2026 1:29:03 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git...
+Mar 27, 2026 1:29:03 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git to complete...
+Mar 27, 2026 1:29:03 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git...
+Mar 27, 2026 1:29:03 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git to complete...
+Mar 27, 2026 1:29:03 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [1/6] Analyzing https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
+Mar 27, 2026 1:29:03 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [2/6] Analyzing https://github.com/CA303-I-2026/Grupo-2.git (main)...
+Mar 27, 2026 1:29:03 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git completed!
+Mar 27, 2026 1:29:03 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/CA303-I-2026/Grupo-6.git completed!
+Mar 27, 2026 1:29:03 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [3/6] Analyzing https://github.com/CA303-I-2026/Grupo-6.git (main)...
+Mar 27, 2026 1:29:03 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [4/6] Analyzing https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main)...
+Mar 27, 2026 1:29:03 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main) does not contain a standalone config file.
-Mar 26, 2026 1:28:44 AM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/CA303-I-2026/Grupo-2.git (main) does not contain a standalone config file.
-Mar 26, 2026 1:28:44 AM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main) does not contain a standalone config file.
-Mar 26, 2026 1:28:44 AM reposense.report.ReportGenerator updateRepoConfig
+Mar 27, 2026 1:29:03 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/CA303-I-2026/Grupo-6.git (main) does not contain a standalone config file.
-Mar 26, 2026 1:28:44 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main)...
-Mar 26, 2026 1:28:44 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-2.git (main)...
-Mar 26, 2026 1:28:44 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Mar 27, 2026 1:29:03 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main) does not contain a standalone config file.
+Mar 27, 2026 1:29:03 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
-Mar 26, 2026 1:28:44 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Mar 27, 2026 1:29:03 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-6.git (main)...
-Mar 26, 2026 1:28:44 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git completed!
-Mar 26, 2026 1:28:44 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git completed!
-Mar 26, 2026 1:28:44 AM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
-Mar 26, 2026 1:28:44 AM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-2.git (main)...
-Mar 26, 2026 1:28:44 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Mar 27, 2026 1:29:03 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main)...
+Mar 27, 2026 1:29:03 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-6.git (main)...
-Mar 26, 2026 1:28:44 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Mar 27, 2026 1:29:03 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
+Mar 27, 2026 1:29:03 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main)...
-Mar 26, 2026 1:28:44 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Mar 27, 2026 1:29:03 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-6.git (main)...
-Mar 26, 2026 1:28:44 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Mar 27, 2026 1:29:03 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main)...
-Mar 26, 2026 1:28:44 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-2.git (main)...
-Mar 26, 2026 1:28:44 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Mar 27, 2026 1:29:03 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
-Mar 26, 2026 1:28:45 AM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/CA303-I-2026/Grupo-2.git (main) completed!
-Mar 26, 2026 1:28:45 AM reposense.report.ReportGenerator analyzeRepo
+Mar 27, 2026 1:29:03 AM reposense.git.GitClone cloneFromBareAndUpdateBranch
+SEVERE: Exception met while cloning or checking out CA303-I-2026/Grupo-2[main].Analysis terminated.
+java.lang.RuntimeException: reposense.system.CommandRunnerProcessException: Error returned from command git clone 'repos/CA303-I-2026_Grupo-2/Grupo-2_bare' --branch main 'repos/CA303-I-2026_Grupo-2/Grupo-2' on path . :
+Cloning into 'repos/CA303-I-2026_Grupo-2/Grupo-2'...
+done.
+Downloading datos/originales/Accident_Information.csv (706 MB)
+Error downloading object: datos/originales/Accident_Information.csv (a651405): Smudge error: Error downloading datos/originales/Accident_Information.csv (a651405f6778c4c2618d484f226a04f4a9dc98b20572d7be7dbb11fc251a8305): error transferring "a651405f6778c4c2618d484f226a04f4a9dc98b20572d7be7dbb11fc251a8305": [0] remote missing object a651405f6778c4c2618d484f226a04f4a9dc98b20572d7be7dbb11fc251a8305
+
+Errors logged to '/home/runner/work/publish-RepoSense/publish-RepoSense/repos/CA303-I-2026_Grupo-2/Grupo-2/.git/lfs/logs/20260327T012903.981010954.log'.
+Use `git lfs logs last` to view the log.
+error: external filter 'git-lfs filter-process' failed
+fatal: datos/originales/Accident_Information.csv: smudge filter lfs failed
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+
+	at reposense.system.CommandRunner.runCommand(CommandRunner.java:23)
+	at reposense.git.GitClone.cloneFromBareAndUpdateBranch(GitClone.java:121)
+	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:390)
+	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:286)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: reposense.system.CommandRunnerProcessException: Error returned from command git clone 'repos/CA303-I-2026_Grupo-2/Grupo-2_bare' --branch main 'repos/CA303-I-2026_Grupo-2/Grupo-2' on path . :
+Cloning into 'repos/CA303-I-2026_Grupo-2/Grupo-2'...
+done.
+Downloading datos/originales/Accident_Information.csv (706 MB)
+Error downloading object: datos/originales/Accident_Information.csv (a651405): Smudge error: Error downloading datos/originales/Accident_Information.csv (a651405f6778c4c2618d484f226a04f4a9dc98b20572d7be7dbb11fc251a8305): error transferring "a651405f6778c4c2618d484f226a04f4a9dc98b20572d7be7dbb11fc251a8305": [0] remote missing object a651405f6778c4c2618d484f226a04f4a9dc98b20572d7be7dbb11fc251a8305
+
+Errors logged to '/home/runner/work/publish-RepoSense/publish-RepoSense/repos/CA303-I-2026_Grupo-2/Grupo-2/.git/lfs/logs/20260327T012903.981010954.log'.
+Use `git lfs logs last` to view the log.
+error: external filter 'git-lfs filter-process' failed
+fatal: datos/originales/Accident_Information.csv: smudge filter lfs failed
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+
+	at reposense.system.CommandRunnerProcess.waitForProcess(CommandRunnerProcess.java:46)
+	at reposense.system.CommandRunner.runCommand(CommandRunner.java:21)
+	... 8 more
+
+Mar 27, 2026 1:29:04 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git completed!
+Mar 27, 2026 1:29:04 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/CA303-I-2026/Grupo-6.git (main) completed!
-Mar 26, 2026 1:28:45 AM reposense.report.ReportGenerator analyzeRepo
+Mar 27, 2026 1:29:04 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main) completed!
-Mar 26, 2026 1:28:45 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [5/6] Analyzing https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main)...
-Mar 26, 2026 1:28:45 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [6/6] Analyzing https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main)...
-Mar 26, 2026 1:28:45 AM reposense.report.ReportGenerator analyzeRepo
+Mar 27, 2026 1:29:04 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main) completed!
-Mar 26, 2026 1:28:45 AM reposense.report.ReportGenerator updateRepoConfig
+Mar 27, 2026 1:29:04 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [5/6] Analyzing https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main)...
+Mar 27, 2026 1:29:04 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main) does not contain a standalone config file.
-Mar 26, 2026 1:28:45 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Mar 27, 2026 1:29:04 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main)...
-Mar 26, 2026 1:28:45 AM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main) does not contain a standalone config file.
-Mar 26, 2026 1:28:45 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main)...
-Mar 26, 2026 1:28:45 AM reposense.authorship.FileInfoExtractor generateFileInfo
-WARNING: File "datos/originales/cardio_train.csv" has 2941524B size. The file size limit is set at 500000B. Exact line diffs will be excluded from report...
-Mar 26, 2026 1:28:45 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Mar 27, 2026 1:29:04 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main)...
-Mar 26, 2026 1:28:45 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Mar 27, 2026 1:29:04 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main)...
-Mar 26, 2026 1:28:45 AM reposense.report.ReportGenerator analyzeRepo
+Mar 27, 2026 1:29:04 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main) completed!
-Mar 26, 2026 1:28:46 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+Mar 27, 2026 1:29:04 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git completed!
+Mar 27, 2026 1:29:04 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [6/6] Analyzing https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main)...
+Mar 27, 2026 1:29:04 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main) does not contain a standalone config file.
+Mar 27, 2026 1:29:04 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main)...
+Mar 27, 2026 1:29:04 AM reposense.authorship.FileInfoExtractor generateFileInfo
+WARNING: File "datos/originales/cardio_train.csv" has 2941524B size. The file size limit is set at 500000B. Exact line diffs will be excluded from report...
+Mar 27, 2026 1:29:05 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main)...
-Mar 26, 2026 1:28:46 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Mar 27, 2026 1:29:05 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main)...
-Mar 26, 2026 1:28:46 AM reposense.report.ReportGenerator analyzeRepo
+Mar 27, 2026 1:29:05 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main) completed!
-Mar 26, 2026 1:28:46 AM reposense.report.ReportGenerator generateReposReport
+Mar 27, 2026 1:29:05 AM reposense.report.ReportGenerator generateReposReport
 INFO: The report is generated at /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-report
-Mar 26, 2026 1:28:46 AM reposense.RepoSense main
-INFO: Elapsed processing time: 2.69 second(s)
+Mar 27, 2026 1:29:05 AM reposense.RepoSense main
+INFO: Elapsed processing time: 3.07 second(s)
