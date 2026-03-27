@@ -11,6 +11,10 @@
 
 ./get-reposense.py --release
 
+# Skip Git LFS smudge filter so repos with LFS-tracked files can be cloned
+# without needing the actual LFS content (only file history is needed for analysis)
+export GIT_LFS_SKIP_SMUDGE=1
+
 # Executes RepoSense
 # Do not change the default output folder name (reposense-report)
 ## Examples of other valid options; For more, please view the user guide
