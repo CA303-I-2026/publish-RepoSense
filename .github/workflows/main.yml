@@ -35,6 +35,29 @@ jobs:
         echo "VITE_BASE_DIR: $VITE_BASE_DIR"
         ./run.sh
 
+    - name: Verify all groups are in the report
+      run: |
+        GROUPS=(
+          "CA303-I-2026_Grupo-1-Los-bigotes-de-FM_main"
+          "CA303-I-2026_Grupo-2_main"
+          "CA303-I-2026_Grupo-3-p-0.05_main"
+          "CA303-I-2026_Grupo-4-Martingalianos_main"
+          "CA303-I-2026_Grupo-5-Alpha-Epsilon_main"
+          "CA303-I-2026_Grupo-6_main"
+        )
+        FAILED=0
+        for group in "${GROUPS[@]}"; do
+          if [ ! -d "./reposense-report/$group" ]; then
+            echo "ERROR: Group directory $group is missing from the report!"
+            FAILED=1
+          fi
+        done
+        if [ $FAILED -eq 1 ]; then
+          echo "One or more groups are missing from the report. Check the RepoSense logs above for errors."
+          exit 1
+        fi
+        echo "All groups are present in the report."
+
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
