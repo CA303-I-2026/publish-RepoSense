@@ -12,6 +12,7 @@ on:
   ### '0 0 1 * *': monthly
   schedule:
     - cron: '0 0 * * *'
+      timezone: "America/Costa_Rica"
 
 jobs:
   build:
