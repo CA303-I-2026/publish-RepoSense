@@ -1,65 +1,65 @@
-Apr 06, 2026 10:00:36 PM reposense.system.LogsManager addFileHandler
+Apr 07, 2026 7:05:41 AM reposense.system.LogsManager addFileHandler
 INFO: Log temp folder has been successfully created
-Apr 06, 2026 10:00:36 PM reposense.parser.ArgsParser parse
+Apr 07, 2026 7:05:41 AM reposense.parser.ArgsParser parse
 INFO: Config path not provided, using the config folder as default.
-Apr 06, 2026 10:00:36 PM reposense.parser.ReportConfigYamlParser parse
+Apr 07, 2026 7:05:41 AM reposense.parser.ReportConfigYamlParser parse
 INFO: Parsing report-config.yaml file...
-Apr 06, 2026 10:00:36 PM reposense.parser.ArgsParser addReportConfigToBuilder
+Apr 07, 2026 7:05:41 AM reposense.parser.ArgsParser addReportConfigToBuilder
 WARNING: Error parsing report-config.yaml: /home/runner/work/publish-RepoSense/publish-RepoSense/config/report-config.yaml (No such file or directory)
 /home/runner/work/publish-RepoSense/publish-RepoSense/config/report-config.yaml Ignoring the report config provided.
-Apr 06, 2026 10:00:36 PM reposense.parser.CsvParser validateHeader
+Apr 07, 2026 7:05:41 AM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Skip Ignored File Analysis,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  File Size Limit,  Ignore File Size Limit,  Ignore Commits List
-Apr 06, 2026 10:00:36 PM reposense.parser.CsvParser validateHeader
+Apr 07, 2026 7:05:41 AM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, author-config.csv, and recognized columns: Author's Emails,  Repository's Location,  Branch,  Author's Git Host ID,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias andreygonzalez10 found. The alias will belong to the last author - AndreyGonzalez10
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias leouniversidad967 found. The alias will belong to the last author - leouniversidad967
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias alessandro111105 found. The alias will belong to the last author - Alessandro111105
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias emilysanchezm found. The alias will belong to the last author - emilysanchezm
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias alegobe23 found. The alias will belong to the last author - Alegobe23
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias josemiguel11 found. The alias will belong to the last author - JoseMiguel11
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias gabo0122 found. The alias will belong to the last author - Gabo0122
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias sebas-miranda found. The alias will belong to the last author - sebas-miranda
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias gabr64 found. The alias will belong to the last author - Gabr64
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias omecxd found. The alias will belong to the last author - OMECXD
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias javaluisdi found. The alias will belong to the last author - JavaLuisdi
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias katiamorenouab found. The alias will belong to the last author - KatiaMorenoUAB
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias andreygonzalez10 found. The alias will belong to the last author - AndreyGonzalez10
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias leouniversidad967 found. The alias will belong to the last author - leouniversidad967
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias alessandro111105 found. The alias will belong to the last author - Alessandro111105
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias emilysanchezm found. The alias will belong to the last author - emilysanchezm
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias alegobe23 found. The alias will belong to the last author - Alegobe23
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias josemiguel11 found. The alias will belong to the last author - JoseMiguel11
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias gabo0122 found. The alias will belong to the last author - Gabo0122
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias sebas-miranda found. The alias will belong to the last author - sebas-miranda
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias gabr64 found. The alias will belong to the last author - Gabr64
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias omecxd found. The alias will belong to the last author - OMECXD
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias javaluisdi found. The alias will belong to the last author - JavaLuisdi
-Apr 06, 2026 10:00:36 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 7:05:41 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias katiamorenouab found. The alias will belong to the last author - KatiaMorenoUAB
-Apr 06, 2026 10:00:36 PM reposense.git.GitConfig getGlobalGitLfsConfig
+Apr 07, 2026 7:05:41 AM reposense.git.GitConfig getGlobalGitLfsConfig
 WARNING: Could not get global git lfs config
 java.lang.RuntimeException: reposense.system.CommandRunnerProcessException: Error returned from command git config --global --list on path . :
 fatal: unable to read config file '/home/runner/.gitconfig': No such file or directory
@@ -75,117 +75,117 @@ fatal: unable to read config file '/home/runner/.gitconfig': No such file or dir
 	at reposense.system.CommandRunner.runCommand(CommandRunner.java:21)
 	... 3 more
 
-Apr 06, 2026 10:00:37 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-2.git...
-Apr 06, 2026 10:00:37 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 7:05:41 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git...
-Apr 06, 2026 10:00:37 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 7:05:41 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-3-p-0.05.git...
-Apr 06, 2026 10:00:37 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-3-p-0.05.git to complete...
-Apr 06, 2026 10:00:37 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 7:05:41 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-2.git...
+Apr 07, 2026 7:05:41 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-6.git...
-Apr 06, 2026 10:00:37 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 7:05:41 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git to complete...
-Apr 06, 2026 10:00:37 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 7:05:41 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-2.git to complete...
-Apr 06, 2026 10:00:37 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 7:05:41 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-3-p-0.05.git to complete...
+Apr 07, 2026 7:05:41 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-6.git to complete...
-Apr 06, 2026 10:00:37 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 7:05:41 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/CA303-I-2026/Grupo-6.git completed!
-Apr 06, 2026 10:00:37 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 7:05:41 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git...
-Apr 06, 2026 10:00:37 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 7:05:41 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git to complete...
-Apr 06, 2026 10:00:37 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [1/6] Analyzing https://github.com/CA303-I-2026/Grupo-6.git (main)...
-Apr 06, 2026 10:00:37 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/CA303-I-2026/Grupo-6.git (main) does not contain a standalone config file.
-Apr 06, 2026 10:00:37 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-6.git (main)...
-Apr 06, 2026 10:00:37 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/CA303-I-2026/Grupo-2.git completed!
-Apr 06, 2026 10:00:37 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git...
-Apr 06, 2026 10:00:37 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [2/6] Analyzing https://github.com/CA303-I-2026/Grupo-2.git (main)...
-Apr 06, 2026 10:00:37 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git to complete...
-Apr 06, 2026 10:00:37 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 7:05:41 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/CA303-I-2026/Grupo-3-p-0.05.git completed!
-Apr 06, 2026 10:00:37 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [3/6] Analyzing https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
-Apr 06, 2026 10:00:37 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-6.git (main)...
-Apr 06, 2026 10:00:37 PM reposense.report.ReportGenerator updateRepoConfig
+Apr 07, 2026 7:05:41 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [1/6] Analyzing https://github.com/CA303-I-2026/Grupo-6.git (main)...
+Apr 07, 2026 7:05:41 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/CA303-I-2026/Grupo-2.git completed!
+Apr 07, 2026 7:05:41 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git...
+Apr 07, 2026 7:05:41 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [2/6] Analyzing https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
+Apr 07, 2026 7:05:41 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [3/6] Analyzing https://github.com/CA303-I-2026/Grupo-2.git (main)...
+Apr 07, 2026 7:05:41 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git to complete...
+Apr 07, 2026 7:05:41 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main) does not contain a standalone config file.
-Apr 06, 2026 10:00:37 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Apr 07, 2026 7:05:41 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/CA303-I-2026/Grupo-6.git (main) does not contain a standalone config file.
+Apr 07, 2026 7:05:41 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
-Apr 06, 2026 10:00:37 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-6.git (main)...
-Apr 06, 2026 10:00:37 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/CA303-I-2026/Grupo-6.git (main) completed!
-Apr 06, 2026 10:00:37 PM reposense.report.ReportGenerator updateRepoConfig
+Apr 07, 2026 7:05:41 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-6.git (main)...
+Apr 07, 2026 7:05:42 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/CA303-I-2026/Grupo-2.git (main) does not contain a standalone config file.
-Apr 06, 2026 10:00:37 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Apr 07, 2026 7:05:42 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-2.git (main)...
-Apr 06, 2026 10:00:37 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
-Apr 06, 2026 10:00:37 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
-Apr 06, 2026 10:00:37 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main) completed!
-Apr 06, 2026 10:00:37 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-2.git (main)...
-Apr 06, 2026 10:00:38 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 7:05:42 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-6.git (main)...
+Apr 07, 2026 7:05:42 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-6.git (main)...
+Apr 07, 2026 7:05:42 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git completed!
-Apr 06, 2026 10:00:38 PM reposense.report.ReportGenerator analyzeRepos
+Apr 07, 2026 7:05:42 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [4/6] Analyzing https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main)...
-Apr 06, 2026 10:00:38 PM reposense.report.ReportGenerator updateRepoConfig
+Apr 07, 2026 7:05:42 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/CA303-I-2026/Grupo-6.git (main) completed!
+Apr 07, 2026 7:05:42 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
+Apr 07, 2026 7:05:42 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main) does not contain a standalone config file.
-Apr 06, 2026 10:00:38 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Apr 07, 2026 7:05:42 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main)...
-Apr 06, 2026 10:00:38 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Apr 07, 2026 7:05:42 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-2.git (main)...
+Apr 07, 2026 7:05:42 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
+Apr 07, 2026 7:05:42 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main) completed!
+Apr 07, 2026 7:05:42 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-2.git (main)...
-Apr 06, 2026 10:00:38 PM reposense.report.ReportGenerator analyzeRepo
+Apr 07, 2026 7:05:42 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/CA303-I-2026/Grupo-2.git (main) completed!
-Apr 06, 2026 10:00:38 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Apr 07, 2026 7:05:42 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main)...
-Apr 06, 2026 10:00:38 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Apr 07, 2026 7:05:42 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main)...
-Apr 06, 2026 10:00:38 PM reposense.report.ReportGenerator analyzeRepo
+Apr 07, 2026 7:05:42 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main) completed!
-Apr 06, 2026 10:00:39 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 7:05:43 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git completed!
-Apr 06, 2026 10:00:39 PM reposense.report.ReportGenerator analyzeRepos
+Apr 07, 2026 7:05:43 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [5/6] Analyzing https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main)...
-Apr 06, 2026 10:00:39 PM reposense.report.ReportGenerator updateRepoConfig
+Apr 07, 2026 7:05:43 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main) does not contain a standalone config file.
-Apr 06, 2026 10:00:39 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Apr 07, 2026 7:05:43 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main)...
-Apr 06, 2026 10:00:39 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Apr 07, 2026 7:05:43 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main)...
-Apr 06, 2026 10:00:39 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Apr 07, 2026 7:05:43 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main)...
-Apr 06, 2026 10:00:39 PM reposense.report.ReportGenerator analyzeRepo
+Apr 07, 2026 7:05:43 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main) completed!
-Apr 06, 2026 10:00:43 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 7:05:48 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git completed!
-Apr 06, 2026 10:00:43 PM reposense.report.ReportGenerator analyzeRepos
+Apr 07, 2026 7:05:48 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [6/6] Analyzing https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main)...
-Apr 06, 2026 10:00:45 PM reposense.report.ReportGenerator updateRepoConfig
+Apr 07, 2026 7:05:50 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main) does not contain a standalone config file.
-Apr 06, 2026 10:00:45 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Apr 07, 2026 7:05:50 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main)...
-Apr 06, 2026 10:00:49 PM reposense.authorship.FileInfoExtractor generateFileInfo
+Apr 07, 2026 7:05:53 AM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "bitacoras/bitacora_1/bitacora_1.html" has 1163055B size. The file size limit is set at 500000B. Exact line diffs will be excluded from report...
-Apr 06, 2026 10:00:52 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Apr 07, 2026 7:05:56 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main)...
-Apr 06, 2026 10:00:52 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Apr 07, 2026 7:05:56 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main)...
-Apr 06, 2026 10:00:52 PM reposense.report.ReportGenerator analyzeRepo
+Apr 07, 2026 7:05:56 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main) completed!
-Apr 06, 2026 10:00:52 PM reposense.report.ReportGenerator generateReposReport
+Apr 07, 2026 7:05:56 AM reposense.report.ReportGenerator generateReposReport
 INFO: The report is generated at /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-report
-Apr 06, 2026 10:00:52 PM reposense.RepoSense main
-INFO: Elapsed processing time: 15.80 second(s)
+Apr 07, 2026 7:05:56 AM reposense.RepoSense main
+INFO: Elapsed processing time: 15.57 second(s)
