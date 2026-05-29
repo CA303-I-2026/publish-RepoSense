@@ -1,69 +1,69 @@
-May 28, 2026 5:49:15 PM reposense.system.LogsManager addFileHandler
+May 29, 2026 5:54:29 PM reposense.system.LogsManager addFileHandler
 INFO: Log temp folder has been successfully created
-May 28, 2026 5:49:15 PM reposense.parser.ArgsParser parse
+May 29, 2026 5:54:29 PM reposense.parser.ArgsParser parse
 INFO: Config path not provided, using the config folder as default.
-May 28, 2026 5:49:15 PM reposense.parser.ReportConfigYamlParser parse
+May 29, 2026 5:54:29 PM reposense.parser.ReportConfigYamlParser parse
 INFO: Parsing report-config.yaml file...
-May 28, 2026 5:49:15 PM reposense.parser.ArgsParser addReportConfigToBuilder
+May 29, 2026 5:54:30 PM reposense.parser.ArgsParser addReportConfigToBuilder
 WARNING: Error parsing report-config.yaml: /home/runner/work/publish-RepoSense/publish-RepoSense/config/report-config.yaml (No such file or directory)
 /home/runner/work/publish-RepoSense/publish-RepoSense/config/report-config.yaml Ignoring the report config provided.
-May 28, 2026 5:49:15 PM reposense.parser.CsvParser validateHeader
+May 29, 2026 5:54:30 PM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Skip Ignored File Analysis,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  File Size Limit,  Ignore File Size Limit,  Ignore Commits List
-May 28, 2026 5:49:15 PM reposense.parser.CsvParser validateHeader
+May 29, 2026 5:54:30 PM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, author-config.csv, and recognized columns: Author's Emails,  Repository's Location,  Branch,  Author's Git Host ID,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias andreygonzalez10 found. The alias will belong to the last author - AndreyGonzalez10
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias leouniversidad967 found. The alias will belong to the last author - leouniversidad967
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias alessandro111105 found. The alias will belong to the last author - Alessandro111105
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias emilysanchezm found. The alias will belong to the last author - emilysanchezm
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias alegobe23 found. The alias will belong to the last author - Alegobe23
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias josemiguel11 found. The alias will belong to the last author - JoseMiguel11
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias gabo0122 found. The alias will belong to the last author - Gabo0122
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias sebas-miranda found. The alias will belong to the last author - sebas-miranda
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias gabr64 found. The alias will belong to the last author - Gabr64
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias omecxd found. The alias will belong to the last author - OMECXD
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias javaluisdi found. The alias will belong to the last author - JavaLuisdi
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias katiamorenouab found. The alias will belong to the last author - KatiaMorenoUAB
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias sebascalderonucr found. The alias will belong to the last author - sebascalderonucr
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias andreygonzalez10 found. The alias will belong to the last author - AndreyGonzalez10
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias leouniversidad967 found. The alias will belong to the last author - leouniversidad967
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias alessandro111105 found. The alias will belong to the last author - Alessandro111105
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias emilysanchezm found. The alias will belong to the last author - emilysanchezm
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias alegobe23 found. The alias will belong to the last author - Alegobe23
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias josemiguel11 found. The alias will belong to the last author - JoseMiguel11
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias gabo0122 found. The alias will belong to the last author - Gabo0122
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias sebas-miranda found. The alias will belong to the last author - sebas-miranda
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias gabr64 found. The alias will belong to the last author - Gabr64
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias omecxd found. The alias will belong to the last author - OMECXD
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias javaluisdi found. The alias will belong to the last author - JavaLuisdi
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias katiamorenouab found. The alias will belong to the last author - KatiaMorenoUAB
-May 28, 2026 5:49:15 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 29, 2026 5:54:30 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias sebascalderonucr found. The alias will belong to the last author - sebascalderonucr
-May 28, 2026 5:49:15 PM reposense.git.GitConfig getGlobalGitLfsConfig
+May 29, 2026 5:54:30 PM reposense.git.GitConfig getGlobalGitLfsConfig
 WARNING: Could not get global git lfs config
 java.lang.RuntimeException: reposense.system.CommandRunnerProcessException: Error returned from command git config --global --list on path . :
 fatal: unable to read config file '/home/runner/.gitconfig': No such file or directory
@@ -79,37 +79,37 @@ fatal: unable to read config file '/home/runner/.gitconfig': No such file or dir
 	at reposense.system.CommandRunner.runCommand(CommandRunner.java:21)
 	... 3 more
 
-May 28, 2026 5:49:15 PM reposense.report.RepoCloner spawnCloneProcess
+May 29, 2026 5:54:30 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-2.git...
-May 28, 2026 5:49:15 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-3-p-0.05.git...
-May 28, 2026 5:49:15 PM reposense.report.RepoCloner spawnCloneProcess
+May 29, 2026 5:54:30 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git...
-May 28, 2026 5:49:15 PM reposense.report.RepoCloner spawnCloneProcess
+May 29, 2026 5:54:30 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-3-p-0.05.git...
+May 29, 2026 5:54:30 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-6.git...
-May 28, 2026 5:49:16 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git to complete...
-May 28, 2026 5:49:16 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-6.git to complete...
-May 28, 2026 5:49:16 PM reposense.report.RepoCloner waitForCloneProcess
+May 29, 2026 5:54:30 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-2.git to complete...
-May 28, 2026 5:49:16 PM reposense.report.RepoCloner waitForCloneProcess
+May 29, 2026 5:54:30 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git to complete...
+May 29, 2026 5:54:30 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-3-p-0.05.git to complete...
-May 28, 2026 5:49:17 PM reposense.report.RepoCloner waitForCloneProcess
+May 29, 2026 5:54:30 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-6.git to complete...
+May 29, 2026 5:54:31 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/CA303-I-2026/Grupo-6.git completed!
-May 28, 2026 5:49:17 PM reposense.report.RepoCloner spawnCloneProcess
+May 29, 2026 5:54:31 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git...
-May 28, 2026 5:49:17 PM reposense.report.RepoCloner waitForCloneProcess
+May 29, 2026 5:54:31 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git to complete...
-May 28, 2026 5:49:17 PM reposense.report.ReportGenerator analyzeRepos
+May 29, 2026 5:54:31 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [1/6] Analyzing https://github.com/CA303-I-2026/Grupo-6.git (main)...
-May 28, 2026 5:49:17 PM reposense.report.ReportGenerator updateRepoConfig
+May 29, 2026 5:54:31 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/CA303-I-2026/Grupo-6.git (main) does not contain a standalone config file.
-May 28, 2026 5:49:17 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+May 29, 2026 5:54:31 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-6.git (main)...
-May 28, 2026 5:49:17 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-219469725207801877/CA303-I-2026_Grupo-6/Grupo-6/"bitacoras/bitacora_2/Bit\303\241cora_2.tex" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-219469725207801877/CA303-I-2026_Grupo-6/Grupo-6/"bitacoras/bitacora_2/Bit\303\241cora_2.tex" (No such file or directory)
+May 29, 2026 5:54:32 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-12214520911722295231/CA303-I-2026_Grupo-6/Grupo-6/"bitacoras/bitacora_2/Bit\303\241cora_2.tex" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-12214520911722295231/CA303-I-2026_Grupo-6/Grupo-6/"bitacoras/bitacora_2/Bit\303\241cora_2.tex" (No such file or directory)
 	at java.base/java.io.FileInputStream.open0(Native Method)
 	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
@@ -128,63 +128,63 @@ java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoS
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-May 28, 2026 5:49:17 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+May 29, 2026 5:54:32 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
 SEVERE: Unable to analyze the file located at ""bitacoras/bitacora_2/Bit\303\241cora_2.tex"" as the file is missing from your system. Skipping this file.
-May 28, 2026 5:49:17 PM reposense.report.RepoCloner waitForCloneProcess
+May 29, 2026 5:54:32 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/CA303-I-2026/Grupo-2.git completed!
-May 28, 2026 5:49:17 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [2/6] Analyzing https://github.com/CA303-I-2026/Grupo-2.git (main)...
-May 28, 2026 5:49:17 PM reposense.report.RepoCloner spawnCloneProcess
+May 29, 2026 5:54:32 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git...
-May 28, 2026 5:49:17 PM reposense.report.RepoCloner waitForCloneProcess
+May 29, 2026 5:54:32 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [2/6] Analyzing https://github.com/CA303-I-2026/Grupo-2.git (main)...
+May 29, 2026 5:54:32 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git to complete...
-May 28, 2026 5:49:17 PM reposense.report.ReportGenerator updateRepoConfig
+May 29, 2026 5:54:32 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/CA303-I-2026/Grupo-2.git (main) does not contain a standalone config file.
-May 28, 2026 5:49:17 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+May 29, 2026 5:54:32 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-2.git (main)...
-May 28, 2026 5:49:18 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
-SEVERE: Unable to analyze the file located at ""bitacoras/bitacora_2/figuras/Accidentes_Velocidad_L\303\255mite.png"" as the file is missing from your system. Skipping this file.
-May 28, 2026 5:49:18 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
-SEVERE: Unable to analyze the file located at ""bitacoras/bitacora_2/figuras/Frecuencia_Obst\303\241culos_Intersecciones_T.png"" as the file is missing from your system. Skipping this file.
-May 28, 2026 5:49:18 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-2.git (main)...
-May 28, 2026 5:49:18 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+May 29, 2026 5:54:32 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-6.git (main)...
-May 28, 2026 5:49:18 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-6.git (main)...
-May 28, 2026 5:49:18 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-2.git (main)...
-May 28, 2026 5:49:18 PM reposense.report.RepoCloner waitForCloneProcess
+May 29, 2026 5:54:33 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git completed!
-May 28, 2026 5:49:18 PM reposense.report.ReportGenerator analyzeRepos
+May 29, 2026 5:54:33 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [3/6] Analyzing https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main)...
-May 28, 2026 5:49:18 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/CA303-I-2026/Grupo-2.git (main) completed!
-May 28, 2026 5:49:18 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/CA303-I-2026/Grupo-6.git (main) completed!
-May 28, 2026 5:49:19 PM reposense.report.ReportGenerator updateRepoConfig
+May 29, 2026 5:54:33 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
+SEVERE: Unable to analyze the file located at ""bitacoras/bitacora_2/figuras/Accidentes_Velocidad_L\303\255mite.png"" as the file is missing from your system. Skipping this file.
+May 29, 2026 5:54:33 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
+SEVERE: Unable to analyze the file located at ""bitacoras/bitacora_2/figuras/Frecuencia_Obst\303\241culos_Intersecciones_T.png"" as the file is missing from your system. Skipping this file.
+May 29, 2026 5:54:33 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-6.git (main)...
+May 29, 2026 5:54:33 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-2.git (main)...
+May 29, 2026 5:54:33 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main) does not contain a standalone config file.
-May 28, 2026 5:49:19 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+May 29, 2026 5:54:33 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main)...
-May 28, 2026 5:49:19 PM reposense.authorship.FileInfoExtractor generateFileInfo
+May 29, 2026 5:54:33 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/CA303-I-2026/Grupo-6.git (main) completed!
+May 29, 2026 5:54:33 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "bitacoras/bitacora_1/bitacora_1.html" has 1394173B size. The file size limit is set at 500000B. Exact line diffs will be excluded from report...
-May 28, 2026 5:49:19 PM reposense.report.RepoCloner waitForCloneProcess
+May 29, 2026 5:54:33 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/CA303-I-2026/Grupo-3-p-0.05.git completed!
-May 28, 2026 5:49:19 PM reposense.report.ReportGenerator analyzeRepos
+May 29, 2026 5:54:33 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [4/6] Analyzing https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
-May 28, 2026 5:49:20 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main)...
-May 28, 2026 5:49:20 PM reposense.report.ReportGenerator updateRepoConfig
+May 29, 2026 5:54:33 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-2.git (main)...
+May 29, 2026 5:54:33 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/CA303-I-2026/Grupo-2.git (main) completed!
+May 29, 2026 5:54:34 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main) does not contain a standalone config file.
-May 28, 2026 5:49:20 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+May 29, 2026 5:54:34 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
-May 28, 2026 5:49:20 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+May 29, 2026 5:54:34 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main)...
+May 29, 2026 5:54:34 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main)...
-May 28, 2026 5:49:20 PM reposense.report.ReportGenerator analyzeRepo
+May 29, 2026 5:54:34 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main) completed!
-May 28, 2026 5:49:20 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-219469725207801877/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"bitacoras/bitacora_2/code/Bit\303\241cora_2.qmd" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-219469725207801877/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"bitacoras/bitacora_2/code/Bit\303\241cora_2.qmd" (No such file or directory)
+May 29, 2026 5:54:34 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-12214520911722295231/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"bitacoras/bitacora_2/code/Bit\303\241cora_2.qmd" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-12214520911722295231/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"bitacoras/bitacora_2/code/Bit\303\241cora_2.qmd" (No such file or directory)
 	at java.base/java.io.FileInputStream.open0(Native Method)
 	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
@@ -203,9 +203,9 @@ java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoS
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-May 28, 2026 5:49:20 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-219469725207801877/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Variables del costo anual de los siniestros y el n\303\272mero de siniestros por a\303\261o evidencian valores extremos marcados.md" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-219469725207801877/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Variables del costo anual de los siniestros y el n\303\272mero de siniestros por a\303\261o evidencian valores extremos marcados.md" (No such file or directory)
+May 29, 2026 5:54:34 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-12214520911722295231/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Variables del costo anual de los siniestros y el n\303\272mero de siniestros por a\303\261o evidencian valores extremos marcados.md" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-12214520911722295231/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Variables del costo anual de los siniestros y el n\303\272mero de siniestros por a\303\261o evidencian valores extremos marcados.md" (No such file or directory)
 	at java.base/java.io.FileInputStream.open0(Native Method)
 	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
@@ -224,9 +224,9 @@ java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoS
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-May 28, 2026 5:49:20 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-219469725207801877/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Veh\303\255culos comunes concentran reclamos superiores a \342\202\254900.md" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-219469725207801877/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Veh\303\255culos comunes concentran reclamos superiores a \342\202\254900.md" (No such file or directory)
+May 29, 2026 5:54:34 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-12214520911722295231/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Veh\303\255culos comunes concentran reclamos superiores a \342\202\254900.md" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-12214520911722295231/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Veh\303\255culos comunes concentran reclamos superiores a \342\202\254900.md" (No such file or directory)
 	at java.base/java.io.FileInputStream.open0(Native Method)
 	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
@@ -245,9 +245,9 @@ java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoS
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-May 28, 2026 5:49:20 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-219469725207801877/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/M\303\241s del 85 % de asegurados no report\303\263 siniestros en el a\303\261o.md" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-219469725207801877/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/M\303\241s del 85 % de asegurados no report\303\263 siniestros en el a\303\261o.md" (No such file or directory)
+May 29, 2026 5:54:34 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-12214520911722295231/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/M\303\241s del 85 % de asegurados no report\303\263 siniestros en el a\303\261o.md" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-12214520911722295231/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/M\303\241s del 85 % de asegurados no report\303\263 siniestros en el a\303\261o.md" (No such file or directory)
 	at java.base/java.io.FileInputStream.open0(Native Method)
 	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
@@ -266,9 +266,9 @@ java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoS
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-May 28, 2026 5:49:20 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-219469725207801877/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/literatura/Ayuso-Guti\303\251rrez et al. (2015).md" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-219469725207801877/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/literatura/Ayuso-Guti\303\251rrez et al. (2015).md" (No such file or directory)
+May 29, 2026 5:54:34 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-12214520911722295231/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/literatura/Ayuso-Guti\303\251rrez et al. (2015).md" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-12214520911722295231/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/literatura/Ayuso-Guti\303\251rrez et al. (2015).md" (No such file or directory)
 	at java.base/java.io.FileInputStream.open0(Native Method)
 	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
@@ -287,71 +287,71 @@ java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoS
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-May 28, 2026 5:49:20 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+May 29, 2026 5:54:34 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
 SEVERE: Unable to analyze the file located at ""bitacoras/bitacora_2/code/Bit\303\241cora_2.qmd"" as the file is missing from your system. Skipping this file.
-May 28, 2026 5:49:20 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+May 29, 2026 5:54:34 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
 SEVERE: Unable to analyze the file located at ""fichas/literatura/Ayuso-Guti\303\251rrez et al. (2015).md"" as the file is missing from your system. Skipping this file.
-May 28, 2026 5:49:20 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+May 29, 2026 5:54:34 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
 SEVERE: Unable to analyze the file located at ""fichas/resultados/M\303\241s del 85 % de asegurados no report\303\263 siniestros en el a\303\261o.md"" as the file is missing from your system. Skipping this file.
-May 28, 2026 5:49:20 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+May 29, 2026 5:54:34 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
 SEVERE: Unable to analyze the file located at ""fichas/resultados/Variables del costo anual de los siniestros y el n\303\272mero de siniestros por a\303\261o evidencian valores extremos marcados.md"" as the file is missing from your system. Skipping this file.
-May 28, 2026 5:49:20 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+May 29, 2026 5:54:34 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
 SEVERE: Unable to analyze the file located at ""fichas/resultados/Veh\303\255culos comunes concentran reclamos superiores a \342\202\254900.md"" as the file is missing from your system. Skipping this file.
-May 28, 2026 5:49:21 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
+May 29, 2026 5:54:35 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
 SEVERE: Unable to analyze the file located at ""anteproyecto/Tabla_estad\303\255sticos_descriptivos.png"" as the file is missing from your system. Skipping this file.
-May 28, 2026 5:49:21 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
+May 29, 2026 5:54:35 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
 SEVERE: Unable to analyze the file located at ""bitacoras/bitacora_2/code/Bit\303\241cora_2.pdf"" as the file is missing from your system. Skipping this file.
-May 28, 2026 5:49:21 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+May 29, 2026 5:54:35 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
-May 28, 2026 5:49:21 PM reposense.report.RepoCloner waitForCloneProcess
+May 29, 2026 5:54:35 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git completed!
-May 28, 2026 5:49:21 PM reposense.report.ReportGenerator analyzeRepos
+May 29, 2026 5:54:35 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [5/6] Analyzing https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main)...
-May 28, 2026 5:49:21 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+May 29, 2026 5:54:36 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
-May 28, 2026 5:49:21 PM reposense.report.ReportGenerator analyzeRepo
+May 29, 2026 5:54:36 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main) completed!
-May 28, 2026 5:49:22 PM reposense.report.ReportGenerator updateRepoConfig
+May 29, 2026 5:54:36 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main) does not contain a standalone config file.
-May 28, 2026 5:49:22 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+May 29, 2026 5:54:36 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main)...
-May 28, 2026 5:49:22 PM reposense.authorship.FileInfoExtractor generateFileInfo
+May 29, 2026 5:54:36 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "fichas/literatura/Nonparametric_Block_Bootstra_Kolmogorov-Smirnov_Goodness-of-Fit_Test.pdf" has 500165B size. The file size limit is set at 500000B. Exact line diffs will be excluded from report...
-May 28, 2026 5:49:22 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
+May 29, 2026 5:54:37 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
 SEVERE: Unable to analyze the file located at ""fichas/literatura/Ana\314\201lisis 70M contrasen\314\203as.pdf"" as the file is missing from your system. Skipping this file.
-May 28, 2026 5:49:22 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
+May 29, 2026 5:54:37 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
 SEVERE: Unable to analyze the file located at ""fichas/literatura/Benford\342\200\231s Law Theory and Applications.pdf"" as the file is missing from your system. Skipping this file.
-May 28, 2026 5:49:22 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
+May 29, 2026 5:54:37 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
 SEVERE: Unable to analyze the file located at ""fichas/resultados/Ficha_5___Zipf\342\200\231s Law in Passwords.pdf"" as the file is missing from your system. Skipping this file.
-May 28, 2026 5:49:23 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+May 29, 2026 5:54:37 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main)...
-May 28, 2026 5:49:23 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+May 29, 2026 5:54:37 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main)...
-May 28, 2026 5:49:23 PM reposense.report.ReportGenerator analyzeRepo
+May 29, 2026 5:54:37 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main) completed!
-May 28, 2026 5:49:27 PM reposense.report.RepoCloner waitForCloneProcess
+May 29, 2026 5:54:42 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git completed!
-May 28, 2026 5:49:27 PM reposense.report.ReportGenerator analyzeRepos
+May 29, 2026 5:54:42 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [6/6] Analyzing https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main)...
-May 28, 2026 5:49:30 PM reposense.report.ReportGenerator updateRepoConfig
+May 29, 2026 5:54:44 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main) does not contain a standalone config file.
-May 28, 2026 5:49:30 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+May 29, 2026 5:54:44 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main)...
-May 28, 2026 5:49:34 PM reposense.authorship.FileInfoExtractor generateFileInfo
+May 29, 2026 5:54:48 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "bitacoras/bitacora_2/bitacora_2.html" has 10841330B size. The file size limit is set at 500000B. Exact line diffs will be excluded from report...
-May 28, 2026 5:49:34 PM reposense.authorship.FileInfoExtractor generateFileInfo
+May 29, 2026 5:54:48 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "anteproyecto/presentacion_files/libs/revealjs/plugin/highlight/highlight.esm.js" has 939787B size. The file size limit is set at 500000B. Exact line diffs will be excluded from report...
-May 28, 2026 5:49:34 PM reposense.authorship.FileInfoExtractor generateFileInfo
+May 29, 2026 5:54:48 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "anteproyecto/presentacion_files/libs/revealjs/plugin/highlight/highlight.js" has 940009B size. The file size limit is set at 500000B. Exact line diffs will be excluded from report...
-May 28, 2026 5:49:34 PM reposense.authorship.FileInfoExtractor generateFileInfo
+May 29, 2026 5:54:48 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "bitacoras/bitacora_1/bitacora_1.html" has 1298581B size. The file size limit is set at 500000B. Exact line diffs will be excluded from report...
-May 28, 2026 5:49:38 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+May 29, 2026 5:54:52 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main)...
-May 28, 2026 5:49:40 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+May 29, 2026 5:54:54 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main)...
-May 28, 2026 5:49:40 PM reposense.report.ReportGenerator analyzeRepo
+May 29, 2026 5:54:54 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main) completed!
-May 28, 2026 5:49:41 PM reposense.report.ReportGenerator generateReposReport
+May 29, 2026 5:54:55 PM reposense.report.ReportGenerator generateReposReport
 INFO: The report is generated at /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-report
-May 28, 2026 5:49:41 PM reposense.RepoSense main
-INFO: Elapsed processing time: 25.44 second(s)
+May 29, 2026 5:54:55 PM reposense.RepoSense main
+INFO: Elapsed processing time: 25.25 second(s)
