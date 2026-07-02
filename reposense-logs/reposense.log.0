@@ -1,69 +1,69 @@
-Jul 01, 2026 4:55:37 PM reposense.system.LogsManager addFileHandler
+Jul 02, 2026 4:19:18 PM reposense.system.LogsManager addFileHandler
 INFO: Log temp folder has been successfully created
-Jul 01, 2026 4:55:37 PM reposense.parser.ArgsParser parse
+Jul 02, 2026 4:19:18 PM reposense.parser.ArgsParser parse
 INFO: Config path not provided, using the config folder as default.
-Jul 01, 2026 4:55:37 PM reposense.parser.ReportConfigYamlParser parse
+Jul 02, 2026 4:19:18 PM reposense.parser.ReportConfigYamlParser parse
 INFO: Parsing report-config.yaml file...
-Jul 01, 2026 4:55:37 PM reposense.parser.ArgsParser addReportConfigToBuilder
+Jul 02, 2026 4:19:18 PM reposense.parser.ArgsParser addReportConfigToBuilder
 WARNING: Error parsing report-config.yaml: /home/runner/work/publish-RepoSense/publish-RepoSense/config/report-config.yaml (No such file or directory)
 /home/runner/work/publish-RepoSense/publish-RepoSense/config/report-config.yaml Ignoring the report config provided.
-Jul 01, 2026 4:55:37 PM reposense.parser.CsvParser validateHeader
+Jul 02, 2026 4:19:18 PM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Skip Ignored File Analysis,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  File Size Limit,  Ignore File Size Limit,  Ignore Commits List
-Jul 01, 2026 4:55:37 PM reposense.parser.CsvParser validateHeader
+Jul 02, 2026 4:19:18 PM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, author-config.csv, and recognized columns: Author's Emails,  Repository's Location,  Branch,  Author's Git Host ID,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias andreygonzalez10 found. The alias will belong to the last author - AndreyGonzalez10
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias leouniversidad967 found. The alias will belong to the last author - leouniversidad967
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias alessandro111105 found. The alias will belong to the last author - Alessandro111105
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias emilysanchezm found. The alias will belong to the last author - emilysanchezm
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias alegobe23 found. The alias will belong to the last author - Alegobe23
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias josemiguel11 found. The alias will belong to the last author - JoseMiguel11
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias gabo0122 found. The alias will belong to the last author - Gabo0122
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias sebas-miranda found. The alias will belong to the last author - sebas-miranda
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias gabr64 found. The alias will belong to the last author - Gabr64
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias omecxd found. The alias will belong to the last author - OMECXD
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias javaluisdi found. The alias will belong to the last author - JavaLuisdi
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias katiamorenouab found. The alias will belong to the last author - KatiaMorenoUAB
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias sebascalderonucr found. The alias will belong to the last author - sebascalderonucr
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias andreygonzalez10 found. The alias will belong to the last author - AndreyGonzalez10
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias leouniversidad967 found. The alias will belong to the last author - leouniversidad967
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias alessandro111105 found. The alias will belong to the last author - Alessandro111105
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias emilysanchezm found. The alias will belong to the last author - emilysanchezm
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias alegobe23 found. The alias will belong to the last author - Alegobe23
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias josemiguel11 found. The alias will belong to the last author - JoseMiguel11
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias gabo0122 found. The alias will belong to the last author - Gabo0122
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias sebas-miranda found. The alias will belong to the last author - sebas-miranda
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias gabr64 found. The alias will belong to the last author - Gabr64
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias omecxd found. The alias will belong to the last author - OMECXD
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias javaluisdi found. The alias will belong to the last author - JavaLuisdi
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias katiamorenouab found. The alias will belong to the last author - KatiaMorenoUAB
-Jul 01, 2026 4:55:37 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Jul 02, 2026 4:19:18 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias sebascalderonucr found. The alias will belong to the last author - sebascalderonucr
-Jul 01, 2026 4:55:37 PM reposense.git.GitConfig getGlobalGitLfsConfig
+Jul 02, 2026 4:19:18 PM reposense.git.GitConfig getGlobalGitLfsConfig
 WARNING: Could not get global git lfs config
 java.lang.RuntimeException: reposense.system.CommandRunnerProcessException: Error returned from command git config --global --list on path . :
 fatal: unable to read config file '/home/runner/.gitconfig': No such file or directory
@@ -79,45 +79,37 @@ fatal: unable to read config file '/home/runner/.gitconfig': No such file or dir
 	at reposense.system.CommandRunner.runCommand(CommandRunner.java:21)
 	... 3 more
 
-Jul 01, 2026 4:55:37 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-2.git...
-Jul 01, 2026 4:55:37 PM reposense.report.RepoCloner spawnCloneProcess
+Jul 02, 2026 4:19:18 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git...
-Jul 01, 2026 4:55:37 PM reposense.report.RepoCloner spawnCloneProcess
+Jul 02, 2026 4:19:18 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-2.git...
+Jul 02, 2026 4:19:18 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-6.git...
-Jul 01, 2026 4:55:37 PM reposense.report.RepoCloner spawnCloneProcess
+Jul 02, 2026 4:19:18 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-3-p-0.05.git...
-Jul 01, 2026 4:55:37 PM reposense.report.RepoCloner waitForCloneProcess
+Jul 02, 2026 4:19:18 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-2.git to complete...
-Jul 01, 2026 4:55:37 PM reposense.report.RepoCloner waitForCloneProcess
+Jul 02, 2026 4:19:18 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-3-p-0.05.git to complete...
-Jul 01, 2026 4:55:37 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git to complete...
-Jul 01, 2026 4:55:37 PM reposense.report.RepoCloner waitForCloneProcess
+Jul 02, 2026 4:19:18 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-6.git to complete...
-Jul 01, 2026 4:55:38 PM reposense.report.RepoCloner waitForCloneProcess
+Jul 02, 2026 4:19:18 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git to complete...
+Jul 02, 2026 4:19:20 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/CA303-I-2026/Grupo-6.git completed!
-Jul 01, 2026 4:55:38 PM reposense.report.RepoCloner spawnCloneProcess
+Jul 02, 2026 4:19:20 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git...
-Jul 01, 2026 4:55:38 PM reposense.report.RepoCloner waitForCloneProcess
+Jul 02, 2026 4:19:20 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git to complete...
-Jul 01, 2026 4:55:38 PM reposense.report.ReportGenerator analyzeRepos
+Jul 02, 2026 4:19:20 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [1/6] Analyzing https://github.com/CA303-I-2026/Grupo-6.git (main)...
-Jul 01, 2026 4:55:39 PM reposense.report.ReportGenerator updateRepoConfig
+Jul 02, 2026 4:19:20 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/CA303-I-2026/Grupo-6.git (main) does not contain a standalone config file.
-Jul 01, 2026 4:55:39 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Jul 02, 2026 4:19:20 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-6.git (main)...
-Jul 01, 2026 4:55:39 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git completed!
-Jul 01, 2026 4:55:39 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [2/6] Analyzing https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main)...
-Jul 01, 2026 4:55:39 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git...
-Jul 01, 2026 4:55:39 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git to complete...
-Jul 01, 2026 4:55:39 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-6/Grupo-6/"bitacoras/bitacora_2/Bit\303\241cora_2.tex" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-6/Grupo-6/"bitacoras/bitacora_2/Bit\303\241cora_2.tex" (No such file or directory)
+Jul 02, 2026 4:19:20 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-6/Grupo-6/"bitacoras/bitacora_2/Bit\303\241cora_2.tex" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-6/Grupo-6/"bitacoras/bitacora_2/Bit\303\241cora_2.tex" (No such file or directory)
 	at java.base/java.io.FileInputStream.open0(Native Method)
 	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
@@ -136,481 +128,489 @@ java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoS
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Jul 01, 2026 4:55:39 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+Jul 02, 2026 4:19:20 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
 SEVERE: Unable to analyze the file located at ""bitacoras/bitacora_2/Bit\303\241cora_2.tex"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:39 PM reposense.report.ReportGenerator updateRepoConfig
+Jul 02, 2026 4:19:21 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git completed!
+Jul 02, 2026 4:19:21 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [2/6] Analyzing https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main)...
+Jul 02, 2026 4:19:21 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git...
+Jul 02, 2026 4:19:21 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git to complete...
+Jul 02, 2026 4:19:21 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main) does not contain a standalone config file.
-Jul 01, 2026 4:55:39 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Jul 02, 2026 4:19:21 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main)...
-Jul 01, 2026 4:55:40 PM reposense.report.RepoCloner waitForCloneProcess
+Jul 02, 2026 4:19:21 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/CA303-I-2026/Grupo-2.git completed!
-Jul 01, 2026 4:55:40 PM reposense.report.ReportGenerator analyzeRepos
+Jul 02, 2026 4:19:21 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [3/6] Analyzing https://github.com/CA303-I-2026/Grupo-2.git (main)...
-Jul 01, 2026 4:55:40 PM reposense.authorship.FileInfoExtractor generateFileInfo
+Jul 02, 2026 4:19:21 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "bitacoras/bitacora_1/bitacora_1.html" has 1394173B size. The file size limit is set at 500000B. Exact line diffs will be excluded from report...
-Jul 01, 2026 4:55:40 PM reposense.report.ReportGenerator updateRepoConfig
+Jul 02, 2026 4:19:22 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/CA303-I-2026/Grupo-2.git (main) does not contain a standalone config file.
-Jul 01, 2026 4:55:40 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Jul 02, 2026 4:19:22 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-2.git (main)...
-Jul 01, 2026 4:55:41 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/CA303-I-2026/Grupo-3-p-0.05.git completed!
-Jul 01, 2026 4:55:41 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [4/6] Analyzing https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
-Jul 01, 2026 4:55:41 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
-SEVERE: Unable to analyze the file located at ""bitacoras/bitacora_2/figuras/Accidentes_Velocidad_L\303\255mite.png"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:41 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
-SEVERE: Unable to analyze the file located at ""bitacoras/bitacora_2/figuras/Frecuencia_Obst\303\241culos_Intersecciones_T.png"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:42 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main) does not contain a standalone config file.
-Jul 01, 2026 4:55:42 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
-Jul 01, 2026 4:55:42 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Jul 02, 2026 4:19:23 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-6.git (main)...
-Jul 01, 2026 4:55:42 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main)...
-Jul 01, 2026 4:55:42 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Jul 02, 2026 4:19:23 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
+SEVERE: Unable to analyze the file located at ""bitacoras/bitacora_2/figuras/Accidentes_Velocidad_L\303\255mite.png"" as the file is missing from your system. Skipping this file.
+Jul 02, 2026 4:19:23 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
+SEVERE: Unable to analyze the file located at ""bitacoras/bitacora_2/figuras/Frecuencia_Obst\303\241culos_Intersecciones_T.png"" as the file is missing from your system. Skipping this file.
+Jul 02, 2026 4:19:23 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/CA303-I-2026/Grupo-3-p-0.05.git completed!
+Jul 02, 2026 4:19:23 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [4/6] Analyzing https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
+Jul 02, 2026 4:19:23 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-2.git (main)...
-Jul 01, 2026 4:55:42 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Jul 02, 2026 4:19:23 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-6.git (main)...
-Jul 01, 2026 4:55:42 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main)...
-Jul 01, 2026 4:55:42 PM reposense.report.ReportGenerator analyzeRepo
+Jul 02, 2026 4:19:23 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main)...
+Jul 02, 2026 4:19:23 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main) does not contain a standalone config file.
+Jul 02, 2026 4:19:23 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
+Jul 02, 2026 4:19:24 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/CA303-I-2026/Grupo-6.git (main) completed!
-Jul 01, 2026 4:55:42 PM reposense.report.ReportGenerator analyzeRepo
+Jul 02, 2026 4:19:24 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main)...
+Jul 02, 2026 4:19:24 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/CA303-I-2026/Grupo-5-Alpha-Epsilon.git (main) completed!
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/El tipo de combustible diferencia m\303\241s la frecuencia que la severidad de los siniestros.md" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/El tipo de combustible diferencia m\303\241s la frecuencia que la severidad de los siniestros.md" (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.io.FileReader.<init>(FileReader.java:75)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
-	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
-	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
-	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
-	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
-	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
-	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
-	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/La distribuci\303\263n Poisson subestima dr\303\241sticamente los ceros observados en siniestros.md" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/La distribuci\303\263n Poisson subestima dr\303\241sticamente los ceros observados en siniestros.md" (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.io.FileReader.<init>(FileReader.java:75)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
-	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
-	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
-	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
-	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
-	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
-	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
-	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"bitacoras/bitacora_2/code/Bit\303\241cora_2.qmd" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"bitacoras/bitacora_2/code/Bit\303\241cora_2.qmd" (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.io.FileReader.<init>(FileReader.java:75)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
-	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
-	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
-	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
-	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
-	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
-	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
-	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/literatura/Po\304\215u\304\215a et al. (2020).md" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/literatura/Po\304\215u\304\215a et al. (2020).md" (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.io.FileReader.<init>(FileReader.java:75)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
-	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
-	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
-	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
-	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
-	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
-	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
-	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/literatura/Ostertagov\303\241 et al. (2014).md" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/literatura/Ostertagov\303\241 et al. (2014).md" (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.io.FileReader.<init>(FileReader.java:75)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
-	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
-	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
-	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
-	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
-	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
-	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
-	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/La frecuencia y la severidad adoptan un comportamiento distinto frente a la variable categ\303\263rica de la zona de circulaci\303\263n.md" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/La frecuencia y la severidad adoptan un comportamiento distinto frente a la variable categ\303\263rica de la zona de circulaci\303\263n.md" (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.io.FileReader.<init>(FileReader.java:75)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
-	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
-	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
-	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
-	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
-	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
-	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
-	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/El historial de reclamos se asocia positivamente con la siniestralidad del a\303\261o analizado.md" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/El historial de reclamos se asocia positivamente con la siniestralidad del a\303\261o analizado.md" (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.io.FileReader.<init>(FileReader.java:75)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
-	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
-	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
-	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
-	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
-	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
-	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
-	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/La distribuci\303\263n Lognormal presenta mejor ajuste para los costos positivos menores a 900 euros.md" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/La distribuci\303\263n Lognormal presenta mejor ajuste para los costos positivos menores a 900 euros.md" (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.io.FileReader.<init>(FileReader.java:75)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
-	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
-	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
-	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
-	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
-	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
-	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
-	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Variables del costo anual de los siniestros y el n\303\272mero de siniestros por a\303\261o evidencian valores extremos marcados.md" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Variables del costo anual de los siniestros y el n\303\272mero de siniestros por a\303\261o evidencian valores extremos marcados.md" (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.io.FileReader.<init>(FileReader.java:75)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
-	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
-	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
-	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
-	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
-	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
-	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
-	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Ciertas variables presentan una correlaci\303\263n despreciable con la frecuencia y la severidad de los siniestros.md" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Ciertas variables presentan una correlaci\303\263n despreciable con la frecuencia y la severidad de los siniestros.md" (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.io.FileReader.<init>(FileReader.java:75)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
-	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
-	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
-	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
-	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
-	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
-	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
-	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Veh\303\255culos comunes concentran reclamos superiores a \342\202\254900.md" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Veh\303\255culos comunes concentran reclamos superiores a \342\202\254900.md" (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.io.FileReader.<init>(FileReader.java:75)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
-	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
-	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
-	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
-	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
-	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
-	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
-	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/La distribuci\303\263n Lognormal presenta mejor ajuste que la Gamma, Pareto y Weibull para costos positivos.md" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/La distribuci\303\263n Lognormal presenta mejor ajuste que la Gamma, Pareto y Weibull para costos positivos.md" (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.io.FileReader.<init>(FileReader.java:75)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
-	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
-	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
-	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
-	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
-	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
-	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
-	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Convergencia del tercer cuartil en \342\202\254882 entre grupos.md" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Convergencia del tercer cuartil en \342\202\254882 entre grupos.md" (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.io.FileReader.<init>(FileReader.java:75)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
-	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
-	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
-	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
-	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
-	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
-	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
-	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Comportamiento diferenciado de la mediana del n\303\272mero de reclamos hist\303\263rico.md" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Comportamiento diferenciado de la mediana del n\303\272mero de reclamos hist\303\263rico.md" (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.io.FileReader.<init>(FileReader.java:75)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
-	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
-	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
-	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
-	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
-	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
-	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
-	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/M\303\241s del 85 % de asegurados no report\303\263 siniestros en el a\303\261o.md" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/M\303\241s del 85 % de asegurados no report\303\263 siniestros en el a\303\261o.md" (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.io.FileReader.<init>(FileReader.java:75)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
-	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
-	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
-	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
-	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
-	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
-	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
-	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoExtractor generateFileInfo
-SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/literatura/Ayuso-Guti\303\251rrez et al. (2015).md" (No such file or directory)
-java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-17441196336399429169/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/literatura/Ayuso-Guti\303\251rrez et al. (2015).md" (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.io.FileReader.<init>(FileReader.java:75)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
-	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
-	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
-	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
-	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
-	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
-	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
-	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
-	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
-SEVERE: Unable to analyze the file located at ""bitacoras/bitacora_2/code/Bit\303\241cora_2.qmd"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
-SEVERE: Unable to analyze the file located at ""fichas/literatura/Ayuso-Guti\303\251rrez et al. (2015).md"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
-SEVERE: Unable to analyze the file located at ""fichas/literatura/Ostertagov\303\241 et al. (2014).md"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
-SEVERE: Unable to analyze the file located at ""fichas/literatura/Po\304\215u\304\215a et al. (2020).md"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
-SEVERE: Unable to analyze the file located at ""fichas/resultados/Ciertas variables presentan una correlaci\303\263n despreciable con la frecuencia y la severidad de los siniestros.md"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
-SEVERE: Unable to analyze the file located at ""fichas/resultados/Comportamiento diferenciado de la mediana del n\303\272mero de reclamos hist\303\263rico.md"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
-SEVERE: Unable to analyze the file located at ""fichas/resultados/Convergencia del tercer cuartil en \342\202\254882 entre grupos.md"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
-SEVERE: Unable to analyze the file located at ""fichas/resultados/El historial de reclamos se asocia positivamente con la siniestralidad del a\303\261o analizado.md"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
-SEVERE: Unable to analyze the file located at ""fichas/resultados/El tipo de combustible diferencia m\303\241s la frecuencia que la severidad de los siniestros.md"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
-SEVERE: Unable to analyze the file located at ""fichas/resultados/La distribuci\303\263n Lognormal presenta mejor ajuste para los costos positivos menores a 900 euros.md"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
-SEVERE: Unable to analyze the file located at ""fichas/resultados/La distribuci\303\263n Lognormal presenta mejor ajuste que la Gamma, Pareto y Weibull para costos positivos.md"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
-SEVERE: Unable to analyze the file located at ""fichas/resultados/La distribuci\303\263n Poisson subestima dr\303\241sticamente los ceros observados en siniestros.md"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
-SEVERE: Unable to analyze the file located at ""fichas/resultados/La frecuencia y la severidad adoptan un comportamiento distinto frente a la variable categ\303\263rica de la zona de circulaci\303\263n.md"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
-SEVERE: Unable to analyze the file located at ""fichas/resultados/M\303\241s del 85 % de asegurados no report\303\263 siniestros en el a\303\261o.md"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
-SEVERE: Unable to analyze the file located at ""fichas/resultados/Variables del costo anual de los siniestros y el n\303\272mero de siniestros por a\303\261o evidencian valores extremos marcados.md"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:43 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
-SEVERE: Unable to analyze the file located at ""fichas/resultados/Veh\303\255culos comunes concentran reclamos superiores a \342\202\254900.md"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:43 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Jul 02, 2026 4:19:24 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-2.git (main)...
-Jul 01, 2026 4:55:43 PM reposense.report.ReportGenerator analyzeRepo
+Jul 02, 2026 4:19:24 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/CA303-I-2026/Grupo-2.git (main) completed!
-Jul 01, 2026 4:55:43 PM reposense.report.RepoCloner waitForCloneProcess
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/El tipo de combustible diferencia m\303\241s la frecuencia que la severidad de los siniestros.md" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/El tipo de combustible diferencia m\303\241s la frecuencia que la severidad de los siniestros.md" (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
+	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
+	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
+	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
+	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
+	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
+	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/La distribuci\303\263n Poisson subestima dr\303\241sticamente los ceros observados en siniestros.md" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/La distribuci\303\263n Poisson subestima dr\303\241sticamente los ceros observados en siniestros.md" (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
+	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
+	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
+	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
+	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
+	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
+	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"bitacoras/bitacora_2/code/Bit\303\241cora_2.qmd" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"bitacoras/bitacora_2/code/Bit\303\241cora_2.qmd" (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
+	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
+	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
+	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
+	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
+	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
+	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/literatura/Po\304\215u\304\215a et al. (2020).md" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/literatura/Po\304\215u\304\215a et al. (2020).md" (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
+	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
+	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
+	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
+	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
+	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
+	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/literatura/Ostertagov\303\241 et al. (2014).md" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/literatura/Ostertagov\303\241 et al. (2014).md" (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
+	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
+	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
+	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
+	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
+	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
+	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/La frecuencia y la severidad adoptan un comportamiento distinto frente a la variable categ\303\263rica de la zona de circulaci\303\263n.md" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/La frecuencia y la severidad adoptan un comportamiento distinto frente a la variable categ\303\263rica de la zona de circulaci\303\263n.md" (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
+	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
+	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
+	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
+	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
+	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
+	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/El historial de reclamos se asocia positivamente con la siniestralidad del a\303\261o analizado.md" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/El historial de reclamos se asocia positivamente con la siniestralidad del a\303\261o analizado.md" (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
+	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
+	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
+	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
+	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
+	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
+	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/La distribuci\303\263n Lognormal presenta mejor ajuste para los costos positivos menores a 900 euros.md" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/La distribuci\303\263n Lognormal presenta mejor ajuste para los costos positivos menores a 900 euros.md" (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
+	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
+	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
+	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
+	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
+	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
+	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Variables del costo anual de los siniestros y el n\303\272mero de siniestros por a\303\261o evidencian valores extremos marcados.md" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Variables del costo anual de los siniestros y el n\303\272mero de siniestros por a\303\261o evidencian valores extremos marcados.md" (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
+	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
+	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
+	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
+	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
+	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
+	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Ciertas variables presentan una correlaci\303\263n despreciable con la frecuencia y la severidad de los siniestros.md" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Ciertas variables presentan una correlaci\303\263n despreciable con la frecuencia y la severidad de los siniestros.md" (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
+	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
+	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
+	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
+	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
+	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
+	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Veh\303\255culos comunes concentran reclamos superiores a \342\202\254900.md" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Veh\303\255culos comunes concentran reclamos superiores a \342\202\254900.md" (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
+	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
+	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
+	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
+	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
+	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
+	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/La distribuci\303\263n Lognormal presenta mejor ajuste que la Gamma, Pareto y Weibull para costos positivos.md" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/La distribuci\303\263n Lognormal presenta mejor ajuste que la Gamma, Pareto y Weibull para costos positivos.md" (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
+	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
+	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
+	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
+	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
+	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
+	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Convergencia del tercer cuartil en \342\202\254882 entre grupos.md" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Convergencia del tercer cuartil en \342\202\254882 entre grupos.md" (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
+	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
+	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
+	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
+	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
+	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
+	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Comportamiento diferenciado de la mediana del n\303\272mero de reclamos hist\303\263rico.md" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/Comportamiento diferenciado de la mediana del n\303\272mero de reclamos hist\303\263rico.md" (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
+	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
+	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
+	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
+	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
+	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
+	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/M\303\241s del 85 % de asegurados no report\303\263 siniestros en el a\303\261o.md" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/resultados/M\303\241s del 85 % de asegurados no report\303\263 siniestros en el a\303\261o.md" (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
+	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
+	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
+	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
+	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
+	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
+	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoExtractor generateFileInfo
+SEVERE: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/literatura/Ayuso-Guti\303\251rrez et al. (2015).md" (No such file or directory)
+java.io.FileNotFoundException: /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-repos-temp-6011301385746308796/CA303-I-2026_Grupo-3-p-0.05/Grupo-3-p-0.05/"fichas/literatura/Ayuso-Guti\303\251rrez et al. (2015).md" (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:239)
+	at reposense.authorship.FileInfoExtractor.generateFileInfo(FileInfoExtractor.java:224)
+	at reposense.authorship.FileInfoExtractor.getAllFileInfo(FileInfoExtractor.java:210)
+	at reposense.authorship.FileInfoExtractor.extractTextFileInfos(FileInfoExtractor.java:80)
+	at reposense.authorship.AuthorshipReporter.generateAuthorshipSummary(AuthorshipReporter.java:38)
+	at reposense.report.ReportGenerator.analyzeRepo(ReportGenerator.java:444)
+	at reposense.report.ReportGenerator.analyzeRepos(ReportGenerator.java:392)
+	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$1(ReportGenerator.java:285)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+SEVERE: Unable to analyze the file located at ""bitacoras/bitacora_2/code/Bit\303\241cora_2.qmd"" as the file is missing from your system. Skipping this file.
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+SEVERE: Unable to analyze the file located at ""fichas/literatura/Ayuso-Guti\303\251rrez et al. (2015).md"" as the file is missing from your system. Skipping this file.
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+SEVERE: Unable to analyze the file located at ""fichas/literatura/Ostertagov\303\241 et al. (2014).md"" as the file is missing from your system. Skipping this file.
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+SEVERE: Unable to analyze the file located at ""fichas/literatura/Po\304\215u\304\215a et al. (2020).md"" as the file is missing from your system. Skipping this file.
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+SEVERE: Unable to analyze the file located at ""fichas/resultados/Ciertas variables presentan una correlaci\303\263n despreciable con la frecuencia y la severidad de los siniestros.md"" as the file is missing from your system. Skipping this file.
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+SEVERE: Unable to analyze the file located at ""fichas/resultados/Comportamiento diferenciado de la mediana del n\303\272mero de reclamos hist\303\263rico.md"" as the file is missing from your system. Skipping this file.
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+SEVERE: Unable to analyze the file located at ""fichas/resultados/Convergencia del tercer cuartil en \342\202\254882 entre grupos.md"" as the file is missing from your system. Skipping this file.
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+SEVERE: Unable to analyze the file located at ""fichas/resultados/El historial de reclamos se asocia positivamente con la siniestralidad del a\303\261o analizado.md"" as the file is missing from your system. Skipping this file.
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+SEVERE: Unable to analyze the file located at ""fichas/resultados/El tipo de combustible diferencia m\303\241s la frecuencia que la severidad de los siniestros.md"" as the file is missing from your system. Skipping this file.
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+SEVERE: Unable to analyze the file located at ""fichas/resultados/La distribuci\303\263n Lognormal presenta mejor ajuste para los costos positivos menores a 900 euros.md"" as the file is missing from your system. Skipping this file.
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+SEVERE: Unable to analyze the file located at ""fichas/resultados/La distribuci\303\263n Lognormal presenta mejor ajuste que la Gamma, Pareto y Weibull para costos positivos.md"" as the file is missing from your system. Skipping this file.
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+SEVERE: Unable to analyze the file located at ""fichas/resultados/La distribuci\303\263n Poisson subestima dr\303\241sticamente los ceros observados en siniestros.md"" as the file is missing from your system. Skipping this file.
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+SEVERE: Unable to analyze the file located at ""fichas/resultados/La frecuencia y la severidad adoptan un comportamiento distinto frente a la variable categ\303\263rica de la zona de circulaci\303\263n.md"" as the file is missing from your system. Skipping this file.
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+SEVERE: Unable to analyze the file located at ""fichas/resultados/M\303\241s del 85 % de asegurados no report\303\263 siniestros en el a\303\261o.md"" as the file is missing from your system. Skipping this file.
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+SEVERE: Unable to analyze the file located at ""fichas/resultados/Variables del costo anual de los siniestros y el n\303\272mero de siniestros por a\303\261o evidencian valores extremos marcados.md"" as the file is missing from your system. Skipping this file.
+Jul 02, 2026 4:19:25 PM reposense.authorship.FileInfoAnalyzer analyzeTextFile
+SEVERE: Unable to analyze the file located at ""fichas/resultados/Veh\303\255culos comunes concentran reclamos superiores a \342\202\254900.md"" as the file is missing from your system. Skipping this file.
+Jul 02, 2026 4:19:25 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git completed!
-Jul 01, 2026 4:55:43 PM reposense.report.ReportGenerator analyzeRepos
+Jul 02, 2026 4:19:25 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [5/6] Analyzing https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main)...
-Jul 01, 2026 4:55:44 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main) does not contain a standalone config file.
-Jul 01, 2026 4:55:44 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main)...
-Jul 01, 2026 4:55:44 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
+Jul 02, 2026 4:19:26 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
 SEVERE: Unable to analyze the file located at ""anteproyecto/Tabla_estad\303\255sticos_descriptivos.png"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:44 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
+Jul 02, 2026 4:19:26 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
 SEVERE: Unable to analyze the file located at ""bitacoras/bitacora_2/code/Bit\303\241cora_2.pdf"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:44 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
+Jul 02, 2026 4:19:26 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
 SEVERE: Unable to analyze the file located at ""bitacoras/bitacora_4/figuras/comparaci\303\263n_variables_mayores_menores_900.png"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:44 PM reposense.authorship.FileInfoExtractor generateFileInfo
-WARNING: File "fichas/literatura/Nonparametric_Block_Bootstra_Kolmogorov-Smirnov_Goodness-of-Fit_Test.pdf" has 500165B size. The file size limit is set at 500000B. Exact line diffs will be excluded from report...
-Jul 01, 2026 4:55:44 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Jul 02, 2026 4:19:26 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
-Jul 01, 2026 4:55:45 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
-SEVERE: Unable to analyze the file located at ""fichas/literatura/Ana\314\201lisis 70M contrasen\314\203as.pdf"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:45 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
-SEVERE: Unable to analyze the file located at ""fichas/literatura/Benford\342\200\231s Law Theory and Applications.pdf"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:45 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
-SEVERE: Unable to analyze the file located at ""fichas/resultados/Ficha_5___Zipf\342\200\231s Law in Passwords.pdf"" as the file is missing from your system. Skipping this file.
-Jul 01, 2026 4:55:45 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main)...
-Jul 01, 2026 4:55:45 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Jul 02, 2026 4:19:26 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main) does not contain a standalone config file.
+Jul 02, 2026 4:19:26 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main)...
+Jul 02, 2026 4:19:27 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main)...
-Jul 01, 2026 4:55:45 PM reposense.report.ReportGenerator analyzeRepo
+Jul 02, 2026 4:19:27 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/CA303-I-2026/Grupo-3-p-0.05.git (main) completed!
-Jul 01, 2026 4:55:45 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Jul 02, 2026 4:19:27 PM reposense.authorship.FileInfoExtractor generateFileInfo
+WARNING: File "fichas/literatura/Nonparametric_Block_Bootstra_Kolmogorov-Smirnov_Goodness-of-Fit_Test.pdf" has 500165B size. The file size limit is set at 500000B. Exact line diffs will be excluded from report...
+Jul 02, 2026 4:19:27 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
+SEVERE: Unable to analyze the file located at ""fichas/literatura/Ana\314\201lisis 70M contrasen\314\203as.pdf"" as the file is missing from your system. Skipping this file.
+Jul 02, 2026 4:19:27 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
+SEVERE: Unable to analyze the file located at ""fichas/literatura/Benford\342\200\231s Law Theory and Applications.pdf"" as the file is missing from your system. Skipping this file.
+Jul 02, 2026 4:19:27 PM reposense.authorship.FileInfoAnalyzer analyzeBinaryFile
+SEVERE: Unable to analyze the file located at ""fichas/resultados/Ficha_5___Zipf\342\200\231s Law in Passwords.pdf"" as the file is missing from your system. Skipping this file.
+Jul 02, 2026 4:19:28 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main)...
+Jul 02, 2026 4:19:28 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main)...
-Jul 01, 2026 4:55:45 PM reposense.report.ReportGenerator analyzeRepo
+Jul 02, 2026 4:19:28 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/CA303-I-2026/Grupo-1-Los-bigotes-de-FM.git (main) completed!
-Jul 01, 2026 4:55:52 PM reposense.report.RepoCloner waitForCloneProcess
+Jul 02, 2026 4:19:33 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git completed!
-Jul 01, 2026 4:55:52 PM reposense.report.ReportGenerator analyzeRepos
+Jul 02, 2026 4:19:33 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [6/6] Analyzing https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main)...
-Jul 01, 2026 4:55:55 PM reposense.report.ReportGenerator updateRepoConfig
+Jul 02, 2026 4:19:36 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main) does not contain a standalone config file.
-Jul 01, 2026 4:55:55 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Jul 02, 2026 4:19:36 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main)...
-Jul 01, 2026 4:55:58 PM reposense.authorship.FileInfoExtractor generateFileInfo
+Jul 02, 2026 4:19:39 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "bitacoras/bitacora_2/bitacora_2.html" has 10841330B size. The file size limit is set at 500000B. Exact line diffs will be excluded from report...
-Jul 01, 2026 4:55:58 PM reposense.authorship.FileInfoExtractor generateFileInfo
+Jul 02, 2026 4:19:39 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "bitacoras/bitacora_3/bitacora_3.html" has 10870403B size. The file size limit is set at 500000B. Exact line diffs will be excluded from report...
-Jul 01, 2026 4:55:58 PM reposense.authorship.FileInfoExtractor generateFileInfo
+Jul 02, 2026 4:19:40 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "anteproyecto/presentacion_files/libs/revealjs/plugin/highlight/highlight.js" has 940009B size. The file size limit is set at 500000B. Exact line diffs will be excluded from report...
-Jul 01, 2026 4:55:58 PM reposense.authorship.FileInfoExtractor generateFileInfo
+Jul 02, 2026 4:19:40 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "bitacoras/bitacora_1/bitacora_1.html" has 1298581B size. The file size limit is set at 500000B. Exact line diffs will be excluded from report...
-Jul 01, 2026 4:55:58 PM reposense.authorship.FileInfoExtractor generateFileInfo
+Jul 02, 2026 4:19:40 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "bitacoras/bitacora_4/bitacora_4.html" has 3152024B size. The file size limit is set at 500000B. Exact line diffs will be excluded from report...
-Jul 01, 2026 4:55:58 PM reposense.authorship.FileInfoExtractor generateFileInfo
+Jul 02, 2026 4:19:40 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "anteproyecto/presentacion_files/libs/revealjs/plugin/highlight/highlight.esm.js" has 939787B size. The file size limit is set at 500000B. Exact line diffs will be excluded from report...
-Jul 01, 2026 4:56:04 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Jul 02, 2026 4:19:45 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main)...
-Jul 01, 2026 4:56:07 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Jul 02, 2026 4:19:48 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main)...
-Jul 01, 2026 4:56:07 PM reposense.report.ReportGenerator analyzeRepo
+Jul 02, 2026 4:19:48 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/CA303-I-2026/Grupo-4-Martingalianos.git (main) completed!
-Jul 01, 2026 4:56:07 PM reposense.report.ReportGenerator generateReposReport
+Jul 02, 2026 4:19:48 PM reposense.report.ReportGenerator generateReposReport
 INFO: The report is generated at /home/runner/work/publish-RepoSense/publish-RepoSense/reposense-report
-Jul 01, 2026 4:56:07 PM reposense.RepoSense main
-INFO: Elapsed processing time: 30.21 second(s)
+Jul 02, 2026 4:19:48 PM reposense.RepoSense main
+INFO: Elapsed processing time: 30.26 second(s)
