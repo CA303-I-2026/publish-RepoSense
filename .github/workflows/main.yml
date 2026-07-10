@@ -10,9 +10,9 @@ on:
   ### '0 * * * *': hourly
   ### '0 0 * * *': daily
   ### '0 0 1 * *': monthly
-  schedule:
-    - cron: '30 8 * * *'
-      timezone: "America/Costa_Rica"
+  # schedule:
+  #  - cron: '30 8 * * *'
+  #    timezone: "America/Costa_Rica"
 
 jobs:
   build:
